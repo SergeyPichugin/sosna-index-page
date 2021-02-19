@@ -37,12 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnLeftSlide.addEventListener('click', () => {
         console.log('click left btn')
-        wrapper.scrollBy(-550, 0)        
+        wrapper.scrollBy(-1150, 0)        
     })
 
     btnRightSlide.addEventListener('click', () => {
         console.log('click right btn')
-        wrapper.scrollBy(550, 0)
+        wrapper.scrollBy(1150, 0)
     })
 
 })
