@@ -1,8 +1,8 @@
 
-.flexSlider
+.flexProductSlider
     max-width: 1140px
     width: 100%
-    margin: 0 auto
+    margin: 20px auto
 
     &__control
         display: flex
@@ -10,7 +10,7 @@
         justify-content: space-between
         position: relative
         width: calc(100% - 40px)
-        top: -15px
+        top: -195px
         height: 0
         padding: 0 20px
 
@@ -28,7 +28,6 @@
             border: 2px solid #ffffff
             box-shadow: 0px 0px 7px rgba(0,0,0,.3)
             transition: all .9s ease-out
-            margin-top: -230px
 
             &:hover
                 // border: 2px solid rgba(36, 99, 185,.2)
@@ -42,86 +41,50 @@
 
 
             &__right
-                margin-right: -35px
 
             &__left
                 transform: rotate(180deg)
-                margin-left: -35px
                 
     
     &__wrapper
-        width: 1140px
+        width: 1140px                
         display: flex
         overflow-x: hidden
         scroll-behavior: smooth
-        
-        a:last-child
-            div
-                margin-right: 0
-            
 
     &__slide
-        min-width: 1140px        
-        height: 406px
-        background: rgba(234,222,180,.5)
+        min-width: 200px        
+        height: 280px
+        background: rgba(255,255,255,0)
         margin-right: 10px
         border-radius: 4px
+
+        &_img
+            width: 200px
 
         &_link
             text-decoration: none
 
         &_top
             display: flex
-            flex-direction: column
-            height: 70%
+            flex-direction: column            
 
             &--title
                 width: calc(100% - 30px)
                 color: #000000
                 background: rgba(255,255,255,.5)
-                font-size: 26px
-                padding: 15px
-                text-transform: uppercase
-                border-radius: 4px 0 0 0
+                font-size: 14px
+                padding: 5px             
 
-            &--description
+            &--price
                 width: calc(100% - 30px)
                 color: #000000
                 background: rgba(255,255,255,.5)
-                font-size: 22px
-                padding: 15px
-                height: calc(100% - 30px)                
-
-        &_bottom
-            display: flex
-            flex-direction: row
-            height: 30%
-
-            &--precent
-                width: 50%
-                background: rgba(255, 4, 4,.5)
-                color: #FFF
-                display: flex
-                justify-content: center
-                align-items: center
-                font-size: 36px
-                font-weight: 800
-                border-radius: 0 0 0 4px
-
-            &--btn
-                width: 50%
-                background: rgba(36, 99, 185, 0.5)
-                color: #FFF
-                display: flex
-                justify-content: center
-                align-items: center
-                font-size: 28px
-                font-weight: 800
-                text-transform: uppercase
-                border-radius: 0 0 4px 0 
+                font-size: 16px
+                padding: 5px       
 
 @media screen and ( max-width: 470px )
-    .flexSlider
+    .flexProductSlider
 
         &__slide
             min-width: 280px
@@ -135,20 +98,10 @@
                     padding: 9px
                     width: calc(100% - 18px)
 
-                &--description
+                &--price
                     font-size: 16px
                     padding: 9px
-                    width: calc(100% - 18px)
-
-            &_bottom
-
-                &--precent
-                    font-size: 24px
-                    padding: 9px
-
-                &--btn
-                    font-size: 18px
-                    padding: 9px
+                    width: calc(100% - 18px)            
 
         &__control
             display: none

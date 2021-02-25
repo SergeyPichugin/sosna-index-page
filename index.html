@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="build/flex-header.css">
     <link rel="stylesheet" href="build/flex-slider.css">
     <link rel="stylesheet" href="build/flex-menu.css">
+    <link rel="stylesheet" href="build/flex-slider-products.css">
+    <link rel="stylesheet" href="build/flex-footer.css">
 </head>
 <body style="margin: 0;">
 
@@ -129,8 +131,7 @@
             </div>
             <div class="flextovgroup__col flextovgroup__col_w100precent">                                
                 <span class="flextovgroup__header"><img class="flextovgroup__ico" src="http://sosna.ru/images/icon/soput.jpg" alt="Сопутствующие товары" /><a href="soput.php">Сопутствующие товары</a> <button src="http://www.sosna.ru/images/general/3u_1.jpg" class="flextovgroup__button_show flextovgroup__button_show_close" id="showMenu" data-menu="Сопутствующие товары" data-message="Закрыть меню"></button></span>
-                <ul class="flextovgroup__listMenu" id="listMenu" data-menu="Сопутствующие товары">
-                    <li><a href="pilo.php">Пиломатериалы</a></li>
+                <ul class="flextovgroup__listMenu" id="listMenu" data-menu="Сопутствующие товары">                    
                     <li><a href="laminat.php">Ламинат</a></li>
                     <li><a href="ugolki.php">Керамические уголки</a></li>
                     <li><a href="krestiki.php">Крестики для плитки</a></li>
@@ -152,12 +153,7 @@
                     <li><a href="teplypol.php">Теплые полы</a></li>
                 </ul>
             </div>
-        </div>        
-        <div class="flextovgroup__row flextovgroup__mb20">
-            <div class="flextovgroup__price">
-                <span class="flextovgroup__price_redText">ВНИМАНИЕ!</span> В интернет-магазине указаны розничные цены, оптовые цены приведены в <a href="price.php">Прайс-листах</a>.
-            </div>
-        </div>
+        </div>                
     </div>
 
     <div class="flexSlider">        
@@ -168,8 +164,23 @@
         </div>
     </div>
 
+    <div class="flexProductSlider">            
+        <div class="flexProductSlider__wrapper">
+            
+        </div>
+        <div class="flexProductSlider__control">
+            <button class="flexProductSlider__control_btn flexProductSlider__control_btn__left" id="slideProductLeft"></button>
+            <button class="flexProductSlider__control_btn flexProductSlider__control_btn__right" id="slideProductRight"></button>
+        </div>
+    </div>
+
+    <div class="flexFooter__wrapper">
+        footer
+    </div>
+
     <script src="js/flexSlider.js"></script>
     <script src="js/flexMenu.js"></script>
+    <script src="js/flexSliderProducts.js"></script>
     
 </body>
 </html>

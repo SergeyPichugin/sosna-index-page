@@ -1,0 +1,52 @@
+{
+    "slides": [
+        {
+            "image": "images/01.jpg",
+            "text": "Заголовок",
+            "price": "100 рублей",
+            "href": "#1"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 2",
+            "price": "100 рублей",
+            "href": "#2"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 3",
+            "price": "100 рублей",
+            "href": "#3"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 4",
+            "price": "100 рублей",
+            "href": "#4"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Заголовок",
+            "price": "100 рублей",
+            "href": "#1"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 2",
+            "price": "100 рублей",
+            "href": "#2"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 3",
+            "price": "100 рублей",
+            "href": "#3"
+        },
+        {
+            "image": "images/01.jpg",
+            "text": "Test text 4",
+            "price": "100 рублей",
+            "href": "#4"
+        }
+    ]
+}

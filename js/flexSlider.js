@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let wrapperSlides = document.querySelector('.flexSlider__wrapper')
 
-    fetch('slides.json', { mode: 'no-cors' })
+    fetch('js/slides.json', { mode: 'no-cors' })
         .then((response) => {
             return response.json()
         })
